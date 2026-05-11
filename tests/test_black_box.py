@@ -1,6 +1,6 @@
 import unittest
 
-from src/linear_search import linear_search
+from src.linear_search import linear_search
 
 v0 = 1.1
 v1_1 = [2, 3, 2, 3, 4, 5, 2, 7, 8, 9]
