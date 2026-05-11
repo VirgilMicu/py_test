@@ -1,5 +1,5 @@
 import unittest
-from scr/linear_search import linear_search
+from scr.linear_search import linear_search
 import random as ra
 
 def oracol (vect, key):
