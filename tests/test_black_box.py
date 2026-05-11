@@ -15,7 +15,7 @@ a2 = 99
 a3 = [2]
 
 class Tests(unittest.TestCase):
-    def test_f ():
+    def test_f (self):
         assert linear_search(v0, a2) == -1   # intrari: non-vector + intreg 
         assert linear_search(v1_1, a2) == -1 # intrari: vector semnificativ mai mare decat 5 + intreg 
         assert linear_search(v1_2, a2) == -1 # intrari: vector mai mare la limita decat 5 + intreg 
