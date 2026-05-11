@@ -23,5 +23,5 @@ jobs:
 
       - name: Run tests
         run: |
-          export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+          # export PYTHONPATH=$PYTHONPATH:$(pwd)/src
           python -m unittest discover -s tests -v
