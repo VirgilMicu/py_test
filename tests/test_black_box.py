@@ -26,3 +26,5 @@ class Tests(unittest.TestCase):
         assert linear_search(v4, a2) == -1   # intrari: valide, cheia nu este in vector
         assert linear_search(v4, a3) == -1   # intrari: vector de 5 intregi + non-intreg
 
+if __name__ == '__main__':
+    unittest.main()
