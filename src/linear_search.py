@@ -1,4 +1,4 @@
-def func (vect, key):
+def linear_search (vect, key):
     if not isinstance(key, int):
         return -1
     if not isinstance(vect, list):
